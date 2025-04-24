@@ -16,3 +16,10 @@ untuk (p) deskripsi saya menggunakan kata "Tempat terbaik bagi mahasiswa dan sia
 untuk (button) tombol saya menggunakan kata "Get Started"
 
 untuk gambar menggunakan div terbaru yang terpisah dengan div container berfungsi untuk menampilkan gambar buku yang bernama Stack of Books
+
+
+Mini Projek 
+
+![image](https://github.com/user-attachments/assets/8bbe5b92-8275-441f-9503-c8fac181f44f)
+
+Final
