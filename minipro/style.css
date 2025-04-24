@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9800, #2196f3); /* Orange ke Biru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Layout dengan Flexbox */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Text Section */
+.text {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+    color: #fff; /* Teks putih agar kontras */
+}
+
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #fdfdfd;
+}
+
+.highlight {
+    color: #ffff00; /* Kuning cerah */
+    font-weight: bold;
+}
+
+/* Tombol Get Started */
+.text button {
+    padding: 14px 28px;
+    font-size: 18px;
+    color: #ff9800;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.text button:hover {
+    background-color: #f1f1f1;
+}
+
+/* Gambar Buku di Kiri */
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+}
